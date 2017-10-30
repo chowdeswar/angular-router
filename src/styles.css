@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: opensans-regular;
+    src: url(/assets/fonts/OpenSans-Regular.ttf);
+}
+
+body {
+	font-family: opensans-Regular;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	margin-right: 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: cadetblue;
+	font-family: opensans-regular;
+}
+
+.navbar {
+	border: none;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.navbar .text-all-align {
+	width: 40%;
+	margin: 0 auto;
+}
