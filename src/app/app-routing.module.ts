@@ -7,10 +7,13 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { LandingComponent } from './landing/landing.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-
+import { CrisisListComponent } from './crisis-list/crisis-list.component';
+import { HeroesComponent } from './heroes/heroes.component';
 
 const routes: Routes = [
   {path: '', component: LandingComponent},
+  {path: 'crisis-center', component: CrisisListComponent},
+  {path: 'heroes', component: HeroesComponent},
   {path: 'about', component: AboutUsComponent},
   {path: 'contact', component: ContactUsComponent},
   {path: 'dashboard', component: DashboardComponent},
