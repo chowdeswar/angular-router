@@ -14,6 +14,7 @@ import { CrisisListComponent } from './crisis-list/crisis-list.component';
 import { HeroesComponent } from './heroes/heroes.component';
 
 import { AppRoutingModule } from './app-routing.module';
+import { StyleExtentionfolderComponent } from './style-extentionfolder/style-extentionfolder.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { AppRoutingModule } from './app-routing.module';
     PagenotfoundComponent,
     DashboardComponent,
     CrisisListComponent,
-    HeroesComponent
+    HeroesComponent,
+    StyleExtentionfolderComponent
   ],
   imports: [
     BrowserModule,
